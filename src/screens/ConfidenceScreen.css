@@ -1,0 +1,77 @@
+.confidence-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trip-summary {
+  background: var(--navy);
+  color: var(--white);
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+}
+
+.trip-summary-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin: 0 0 4px;
+}
+
+.trip-summary-detail {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.confidence-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 8px 0 4px;
+}
+
+.confidence-explanation {
+  font-size: 14px;
+  color: var(--grey);
+  margin: 0;
+}
+
+.confidence-area {
+  font-size: 14px;
+  color: var(--navy);
+  margin: 0;
+}
+
+.confidence-disclaimer {
+  font-size: 13px;
+  color: var(--grey);
+  text-align: center;
+  line-height: 1.5;
+  padding: 12px;
+  background: var(--grey-lighter);
+  border-radius: var(--radius);
+}
+
+.confidence-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: var(--grey);
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 0;
+  text-align: left;
+}
+
+.back-button:hover {
+  color: var(--navy);
+}

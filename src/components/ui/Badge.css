@@ -1,0 +1,57 @@
+/* ============================================================
+   21st.dev Badge Component — Custom CSS
+   Replaces Tailwind utility classes for Vite + CSS projects
+   ============================================================ */
+
+/* Base badge styles (replaces: inline-flex items-center font-medium whitespace-nowrap) */
+.badge-base {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Pill shape (replaces: rounded-[20px]) */
+.badge-pill {
+  border-radius: 20px;
+}
+
+/* Dot variant styles (replaces: border border-border text-foreground) */
+.badge-dot-variant {
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+}
+
+/* Size variants */
+/* sm: h-5 px-2 text-[11px] gap-1 */
+.badge-sm {
+  height: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 11px;
+  gap: 4px;
+}
+
+/* md: h-6 px-2.5 text-[12px] gap-1.5 */
+.badge-md {
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  gap: 6px;
+}
+
+/* lg: h-7 px-3 text-[13px] gap-1.5 */
+.badge-lg {
+  height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 13px;
+  gap: 6px;
+}
+
+/* Dot indicator (replaces: shrink-0 rounded-full) */
+.badge-dot {
+  flex-shrink: 0;
+  border-radius: 9999px;
+}

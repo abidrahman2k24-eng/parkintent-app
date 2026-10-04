@@ -1,0 +1,85 @@
+.success-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.success-icon {
+  margin-top: 20px;
+}
+
+.success-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0;
+}
+
+.success-message {
+  font-size: 16px;
+  color: var(--grey);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 360px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  gap: 12px;
+  border-bottom: 1px solid var(--grey-lighter);
+}
+
+.summary-row:last-child {
+  border-bottom: none;
+}
+
+.summary-label {
+  font-size: 14px;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.summary-value {
+  font-size: 14px;
+  color: var(--navy);
+  font-weight: 600;
+  text-align: right;
+  word-break: break-word;
+}
+
+.success-note {
+  font-size: 13px;
+  color: var(--grey);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.saved-trip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  gap: 12px;
+  border-bottom: 1px solid var(--grey-lighter);
+}
+
+.saved-trip-row:last-child {
+  border-bottom: none;
+}
+
+.saved-trip-destination {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.saved-trip-detail {
+  font-size: 13px;
+  color: var(--grey);
+  text-align: right;
+}

@@ -1,0 +1,53 @@
+:root {
+  /* ParkIntent design tokens */
+  --navy: #14213D;
+  --blue: #3468F5;
+  --blue-hover: #2B5CE6;
+  --bg: #F5F7FA;
+  --white: #FFFFFF;
+  --grey: #6B7280;
+  --grey-light: #E5E7EB;
+  --grey-lighter: #F3F4F6;
+  --green: #22C55E;
+  --green-bg: #F0FDF4;
+  --amber: #F59E0B;
+  --amber-bg: #FFFBEB;
+  --red: #EF4444;
+  --red-bg: #FEF2F2;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --radius: 8px;
+  --radius-lg: 12px;
+
+  /* shadcn-compatible HSL variables for 21st.dev Badge component */
+  --accent: 220 90% 59%;
+  --foreground: 220 52% 16%;
+  --background: 0 0% 100%;
+  --border: 220 14% 91%;
+  --muted-foreground: 220 9% 46%;
+
+  font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--navy);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
